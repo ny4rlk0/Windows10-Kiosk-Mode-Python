@@ -7,7 +7,7 @@
 #Well F*** it. It should do similiar thing to Kiosk mode (Lockdown mode for windows.) for python. 
 #ESC= Disable input + Enter Kiosk mode
 #TAB= Enable input + Exit Kiosk mode
-#Altho i said kiosk mode it still lets user shut down computer after CTRL+ALT+DEL But user cant do anything except that as long as it runs.
+#Altho i said kiosk mode it still lets user shut down/reboot computer after CTRL+ALT+DEL But user cant do anything except that as long as it runs.
 #It also hides options in CTRL+ALT+DEL Security Attention Sequence. (Which turn back to normal when you press TAB.)
 #Still couldn't figure it out a way to block SAS completely. (Probably it has something to do with Gina.dll)
 #Wait do i want to do that tho?
