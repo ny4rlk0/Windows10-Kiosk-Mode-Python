@@ -74,8 +74,6 @@ def on_press(key):
         if all (k in current for k in combo) or all (k in current for k in combo2) or all (k in current for k in combo3) or all (k in current for k in combo4) or all (k in current for k in combo5) or all (k in current for k in combo6) or all (k in current for k in combo7):
             print('Dangerious Key Combo Detected!')
             time.sleep(0.1)
-            kk.press_and_release('Enter')
-            kk.press_and_release('Enter')
 def on_release(key):
     try:
         if key in current:current.remove(key);print("Removed "+str(key)+".")
