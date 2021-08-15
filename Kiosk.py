@@ -30,6 +30,7 @@ rega8='reg add "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\
 rega9='reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System" /v "HideFastUserSwitching" /t REG_DWORD /d 1 /f'
 rega10='reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System" /v "DisableCAD" /t REG_DWORD /d 1 /f'
 rega11='reg add "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Keyboard Layout" /v "Scancode Map" /t REG_BINARY /d 0000000000000000030000004de01de04be01d0000000000 /f'
+rega12='reg add "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon" /v Shell /t REG_SZ /d """"c:\\Program Files\\Google\\Chrome\\Application\\chrome.exe""" --no-default-browser-check --kiosk http://Servername/Folder/index.html" /f'
 regd='reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System" /v "SoftwareSASGeneration" /t REG_DWORD /d 0 /f'
 regd1='reg add "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System" /v "DisableTaskMgr" /t REG_DWORD /d 0 /f'
 regd2='reg add "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System" /v "DisableLockWorkStation" /t REG_DWORD /d 0 /f'
